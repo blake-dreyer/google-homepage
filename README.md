@@ -1,0 +1,1 @@
+This is my first project in The Odin Projects foundation series after learning the basics of HTML and CSS through FreeCodeCamp.Com. The primary goal for me during this simple project recreating the google homepage was to practice basic layout and styling as well as getting used to the git workflow. Thanks for checking it out!
