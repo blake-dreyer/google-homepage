@@ -5,10 +5,12 @@
     <title>Google</title>
     <style>
         div {
-            min-height: 100vh;
+            min-height: auto;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
+            margin-top: 16em;
             align-items: center;
+            background-color: lawngreen;
             flex-direction: column;
             flex-wrap: wrap;
         }
@@ -18,7 +20,7 @@
         }
         #searchbar {
             width: 40em;
-            height: 2em;
+            height: 3em;
             margin-top: 1.5em;
             border-radius: 25px;
             border-width: 1px;
@@ -26,12 +28,13 @@
             background-image: url(mag_glass.png);
             background-size: contain;
             background-repeat: no-repeat;
-            text-indent: 1.3em;
+            text-indent: 3em;
+            
         }
     </style>
 </head>
 <body>
-    <div>
+    <div id="glogo">
         <img src="google_logo.png" alt="The Classic Google Logo">
         <form action="www.google.com">
             <input id="searchbar" type="text" placeholder="Search">
